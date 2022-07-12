@@ -1,0 +1,141 @@
+
+.container{
+    display: inline;
+    width:100%
+}
+.menu{
+margin-left: 150px;
+height: max-content;
+float: left;
+display: inline;
+margin-top: 200px;
+transform: rotateX(10deg);
+}
+.menu table{
+    background-color: blanchedalmond;
+    border: 5px solid black ;
+    outline-style:dotted;
+}
+
+#alinqet{
+    text-decoration:none;
+    font-size: 20px;
+    text-align: center;
+    color:black;
+}
+#tdinterneti{
+    background-color: black;
+    font-size: 30px;
+    color: white;
+}
+.permbajtja{
+    margin-left: 500px;
+    
+
+}
+.permbajtja h1{
+    font-size: 80px;
+    font-style: italic;
+    margin-left: 70px;
+    margin-top: 200px;
+    background-color:grey;
+    padding-right: 0;
+   
+
+}
+
+.permbajtja table{
+    background-color: whitesmoke;
+    border: 2px solid transparent;
+    outline-width: 5px;
+    outline-color: red;
+    outline-style: double;
+}
+#tdhead{
+    background-image: linear-gradient(red,pink);
+    font-style: italic;
+    font-size: 17px;
+}
+.permbajtja td{
+    font-style: oblique;
+    border: 1px dotted black;
+}
+.permbajtja2{
+    margin-left: 500px;
+    padding-top: 40px;
+
+}
+
+.permbajtja2 td{
+    border:2px double steelblue ;
+}
+.pershkrimi {
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.pershkrimi ol {
+    
+    font-size: 20px;
+    border: 5px solid black;
+    background-image: radial-gradient(closest-side at 50% 50%,rgb(0, 0, 0), grey);
+    
+    
+}
+.pershkrimi li {
+    margin: 20px;
+    color:white
+}
+#ol{
+    border: 0;
+    font-style: italic;
+    color: black;
+}
+.permbajtja3{
+    padding-top: 40px;
+
+}
+
+.permbajtja3 table{
+    background-image: linear-gradient(to top, pink,blue);
+    border:1px dotted white;
+}
+body{
+    
+    background-image: url(background2.jpg),url(background1.jpg);
+    background-position: right bottom,left top;
+    background-repeat:no-repeat,repeat;
+    background-attachment: fixed,fixed;
+    background-position: initial,initial;
+    background-size:10% ,cover;
+    
+    
+}
+h1{
+    background-color:grey;
+    color: white;
+}
+#borderimg1 { 
+    border: 20px solid transparent;
+    border-image: url(Logo.png) 30 round;
+
+  }
+
+  .tabela{
+    text-decoration:none;
+    display:inline-block;
+    background:white;
+    padding:1em 3em;
+    color:black;
+    border-style: double;
+    
+    outline:3px solid steelblue;
+
+    transition:all ease-in-out 300ms;
+}
+
+.tabela:hover{
+    outline:3px solid steelblue;
+    outline-offset:5px;
+}
+
+

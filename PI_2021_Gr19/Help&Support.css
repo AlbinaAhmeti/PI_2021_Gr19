@@ -1,0 +1,116 @@
+
+    @font-face{
+        font-family: 'HanaleiFill';
+        src: url(HanaleiFill-Regular.ttf);
+        font-stretch:normal; font-weight:bold;
+font-style:normal;
+
+}
+.renditja{
+    display: inline-flex;
+    margin-top: 50px;
+}
+.oferta{
+    margin-left:45px;
+    margin-right: 45px;
+    height: fit-content;
+    width: 400px;
+    border:5px solid black;
+    border-radius: 50px;
+    box-shadow:grey 0px 0px 15px 15px;
+    margin-bottom: 50px;
+    
+
+
+}
+.titulli{
+    width: 100%;
+    border-bottom: 5px solid black;
+    box-shadow: grey 0px 0px 15px 5px inset;
+    padding: 0;
+    border-top-right-radius: 44px;
+    border-top-left-radius: 44px;
+    height: fit-content;
+    background-color: white;
+
+}
+.titulli p{
+    font-family: hanaleifill;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 8px;
+    text-shadow:1px 2px grey;
+    text-align:center;
+}
+.permbajtja ul{
+    font-size: 20px;
+}
+.permbajtja{
+    height: 345px;
+    width: 100%;
+    box-shadow:grey 0px 0px 15px 15px inset;
+    margin: 0;
+    padding: 0;
+    border-bottom-right-radius: 44px;
+    border-bottom-left-radius: 44px;
+    height:fit-content;
+    background-image: url(papper.png);
+    background-origin: border-box;
+    
+}
+.permbajtja p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px;
+    word-wrap:normal;
+    resize: vertical;
+    overflow: hidden;
+
+ 
+}
+body{
+background-image: url(Logo.png), url(papper.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+}
+
+.contact-title{
+    margin-left: 500px;
+    margin-top: 200px;
+    color:black;
+    text-transform:uppercase;
+    transition:all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size:32px;
+    line-height:10px;
+    transform: skew(10deg,0deg)
+}
+.contact-title h2{
+    font-size:16px;
+}
+
+
+input.valid{
+    border:3px solid green;
+
+}
+input.invalid{
+    border:3px solid red;
+}
+input + p{
+    margin-top: 5px;
+    opacity: 0;
+    color: red;
+    font-style: italic;
+}
+input.invalid + p {
+    opacity: 1;
+    margin-bottom: 15px;
+}
